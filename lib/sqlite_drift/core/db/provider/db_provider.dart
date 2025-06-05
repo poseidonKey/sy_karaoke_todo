@@ -1,5 +1,5 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:sy_karaoke_todo/sqlite/core/db/app_database.dart';
+import 'package:sy_karaoke_todo/sqlite_drift/core/db/app_database.dart';
 
 final sqliteDbProvider = Provider<AppDatabase>((ref) => AppDatabase());
 

@@ -2,8 +2,8 @@ import 'package:drift/drift.dart' as drift;
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
-import 'package:sy_karaoke_todo/sqlite/core/db/app_database.dart';
-import 'package:sy_karaoke_todo/sqlite/core/db/provider/db_provider.dart';
+import 'package:sy_karaoke_todo/sqlite_drift/core/db/app_database.dart';
+import 'package:sy_karaoke_todo/sqlite_drift/core/db/provider/db_provider.dart';
 
 class CategoryScreen extends ConsumerWidget {
   const CategoryScreen({super.key});
